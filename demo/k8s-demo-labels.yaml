@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: k8s-demo-labels-v1
+  labels:
+    creation_method: manual
+    env: prod
+spec:
+  containers:
+    - image: ds4ouj/k8s_demo
+      name: k8s-demo-labels-v1
+      ports:
+        - containerPort: 8080
+          protocol: TCP

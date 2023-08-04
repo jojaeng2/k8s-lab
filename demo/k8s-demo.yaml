@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: k8s-demo3
+spec:
+  containers:
+    - image: ds4ouj/k8s_demo
+      name: demo3
+      ports:
+        - containerPort: 8080
+          protocol: TCP
+          
