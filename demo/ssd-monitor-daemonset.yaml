@@ -16,4 +16,4 @@ spec:
         disk: ssd
       containers:
       - name: main
-        image: k8s_demo
+        image: ds4ouj/k8s_demo
