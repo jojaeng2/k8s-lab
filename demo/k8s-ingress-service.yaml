@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: ds4ouj_replicaset
+  name: ds4ouj
 spec:
   replicas: 3
   selector:
