@@ -8,7 +8,7 @@ spec:
     - host: "demo-service.local"
       http:
         paths:
-          - path: /
+          - path: /hello
             pathType: Prefix
             backend:
               service:
