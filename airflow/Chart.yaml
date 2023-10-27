@@ -1,0 +1,4 @@
+apiVersion: v1
+description: airflow chart template
+name: airflow
+version: 0.0.1
